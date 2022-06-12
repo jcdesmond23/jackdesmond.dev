@@ -1,9 +1,14 @@
+import Container from '../components/Container'
 import Head from 'next/head'
-import NavBar from '../components/navbar'
+import Hero from '../components/Hero'
 
 export default function Home() {
   return (
-    <NavBar>
-    </NavBar>
+    <Container>
+      <Head>
+        <title>Home - Jack Desmond</title>
+      </Head>
+      <Hero/>
+    </Container>
   )
 }

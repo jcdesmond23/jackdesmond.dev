@@ -10,13 +10,13 @@ export default function MenuLinks({isOpen}) {
             <Stack
             spacing={8}
             align="center"
-            justify={["center", "space-between", "flex-end", "flex-end"]}
+            justify={["center", "center", "flex-end", "flex-end"]}
             direction={["column", "row", "row", "row"]}
             pt={[4, 4, 0, 0]}
             > 
-                <MenuItem to="" color='black'>Work</MenuItem>
-                <MenuItem to="" color='black'>About</MenuItem>
-                <MenuItem to="" color='black'>Home</MenuItem>
+                <MenuItem to="" color='black' bg='white'>Work</MenuItem>
+                <MenuItem to="" color='black' bg='white'>About</MenuItem>
+                <MenuItem to="" color='black' bg='white'>Contact</MenuItem>
             </Stack>
         </Box>
    )

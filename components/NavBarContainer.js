@@ -5,14 +5,15 @@ export default function NavBarContainer({ children, ...props }) {
         <Flex
             as="nav"
             align="center"
-            position="sticky"
             justify="space-between"
+            position='fixed'
             wrap="wrap"
             w="100%"
-            mb={8}
-            p={8}
-            bg={["primary.500", "primary.500", "transparent", "transparent"]}
-            color={["white", "white", "primary.700", "primary.700"]}
+            p={6}
+            py={2}
+            bg="white"
+            color="black"
+            boxShadow='sm'
             {...props}
         >
             {children}
