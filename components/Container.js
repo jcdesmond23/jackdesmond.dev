@@ -6,7 +6,7 @@ export default function Container({ children, ...props }) {
         <>
             <NavBar/>
             <Flex
-            py='20'
+            pt={55}
             justifyContent='center'
             direction='column'
             as='main'

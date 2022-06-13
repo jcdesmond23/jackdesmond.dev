@@ -1,4 +1,4 @@
-import { Center, Text, Stack, Flex} from "@chakra-ui/react"
+import { Text, Stack, Flex} from "@chakra-ui/react"
 
 export default function Hero() {
    

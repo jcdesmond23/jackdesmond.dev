@@ -14,9 +14,9 @@ export default function MenuLinks({isOpen}) {
             direction={["column", "row", "row", "row"]}
             pt={[4, 4, 0, 0]}
             > 
-                <MenuItem to="" color='black' bg='white'>Work</MenuItem>
-                <MenuItem to="" color='black' bg='white'>About</MenuItem>
-                <MenuItem to="" color='black' bg='white'>Contact</MenuItem>
+                <MenuItem to="/" color='black' bg='white'>Work</MenuItem>
+                <MenuItem to="/about" color='black' bg='white'>About</MenuItem>
+                <MenuItem to="/contact" color='black' bg='white'>Contact</MenuItem>
             </Stack>
         </Box>
    )
