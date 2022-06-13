@@ -30,7 +30,7 @@ export default function About() {
                     py={12}
                     px={6}
                     >
-                        <Stack spacing={20} direction={['column', 'column', 'row', 'row']} align='center'>
+                        <Stack spacing={10} direction={['column', 'column', 'row', 'row']} align='center'>
                             <Flex maxW='500'>
                                 <Text
                                     bg='black'

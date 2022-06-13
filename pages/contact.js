@@ -2,7 +2,6 @@ import Container from '../components/Container'
 import Head from 'next/head'
 import { Text, VStack, HStack, Flex, Tag, TagLabel, TagLeftIcon} from "@chakra-ui/react"
 import { EmailIcon } from '@chakra-ui/icons'
-import { loadGetInitialProps } from 'next/dist/shared/lib/utils'
 
 export default function Contact() {
   return (

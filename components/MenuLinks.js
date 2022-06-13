@@ -1,5 +1,7 @@
-import { Box, Stack } from "@chakra-ui/react"
+import Link from "next/link"
+import { Box, Stack, IconButton, Spacer } from "@chakra-ui/react"
 import MenuItem from "./MenuItem"
+import { FaLinkedin, FaGithub } from "react-icons/fa"
 
 export default function MenuLinks({isOpen}) {
    return (
@@ -14,9 +16,15 @@ export default function MenuLinks({isOpen}) {
             direction={["column", "row", "row", "row"]}
             pt={[4, 4, 0, 0]}
             > 
-                <MenuItem to="/" color='black' bg='white'>Work</MenuItem>
+                <MenuItem to="/work" color='black' bg='white'>Work</MenuItem>
                 <MenuItem to="/about" color='black' bg='white'>About</MenuItem>
                 <MenuItem to="/contact" color='black' bg='white'>Contact</MenuItem>
+                <Link href='https://github.com/jcdesmond23'>
+                    <IconButton icon={<FaGithub size='1.5em'/>} bg='white' size='lg' rounded='full'/>
+                </Link>
+                <Link href='https://www.linkedin.com/in/jack-desmond-052301/'>
+                    <IconButton icon={<FaLinkedin size='1.5em'/>} bg='white' size='lg' rounded='full'/>
+                </Link>
             </Stack>
         </Box>
    )

@@ -5,7 +5,7 @@ import { Box } from '@chakra-ui/react'
 export default function MenuToggle({ toggle, isOpen }) {
     return (
         <Box display={{ base: "block", md: "none" }} onClick={toggle}>
-            {isOpen? <CloseIcon color='black'/> : <HamburgerIcon color='black'/>}
+            {isOpen? <CloseIcon color='black'/> : <HamburgerIcon  boxSize='2em' color='black'/>}
         </Box>
     )
 }
