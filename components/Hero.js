@@ -1,4 +1,14 @@
 import { Text, Stack, Flex} from "@chakra-ui/react"
+import { Canvas } from "@react-three/fiber"
+import { OrbitControls } from "@react-three/drei"
+
+function Box() {
+    return (
+        <mesh>
+            <boxBufferGeometry attach="geomtry"/>
+        </mesh>
+    )
+}
 
 export default function Hero() {
    

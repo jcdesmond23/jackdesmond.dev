@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Box, Stack, IconButton, Spacer } from "@chakra-ui/react"
+import { Box, Stack, IconButton } from "@chakra-ui/react"
 import MenuItem from "./MenuItem"
 import { FaLinkedin, FaGithub } from "react-icons/fa"
 
