@@ -1,4 +1,4 @@
-import NavBar from "./Navbar";
+import NavBar from "./NavBar";
 import { Flex } from "@chakra-ui/react";
 
 export default function Container({ children, ...props }) {
