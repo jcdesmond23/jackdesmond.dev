@@ -1,6 +1,5 @@
 import Container from '../components/Container'
 import Head from 'next/head'
-import Image from 'next/image'
 import { Text, Stack, Flex, Image, Box} from "@chakra-ui/react"
 
 export default function About() {
@@ -44,7 +43,7 @@ export default function About() {
                             </Flex>
                             <Image
                                 borderRadius='full'
-                                boxSize='300px'
+                                maxH={300}
                                 src='/headshot.jpeg'
                                 alt='Jack Desmond'
                             />
