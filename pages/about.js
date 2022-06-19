@@ -6,7 +6,9 @@ export default function About() {
   return (
     <Container>
       <Head>
-        <title>Home - Jack Desmond</title>
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
+        <title>About</title>
       </Head>
       <Flex justifyContent='center' py={55} px={10}>
             <Stack spacing={8} align='center' dir='column'> 

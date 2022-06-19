@@ -35,7 +35,7 @@ export default function Project({ description, image, source, title, tech}) {
                     </Stack>
                     <Stack direction='row'>
                         {tech.map((obj) => (
-                            <Tag variant='subtle' colorScheme='red' borderRadius='full'>
+                            <Tag variant='subtle' colorScheme='gray' borderRadius='full'>
                                 <TagLabel>{obj}</TagLabel>
                             </Tag>
                         ))}
