@@ -1,5 +1,6 @@
 import Container from '../components/Container'
 import Head from 'next/head'
+import Image from 'next/image'
 import { Text, Stack, Flex, Image, Box} from "@chakra-ui/react"
 
 export default function About() {
