@@ -1,4 +1,5 @@
-import { Text, Stack, Flex} from "@chakra-ui/react"
+import Link from "next/link"
+import { Text, Stack, Flex, Button} from "@chakra-ui/react"
 
 export default function Hero() {
    
@@ -22,6 +23,23 @@ export default function Hero() {
                 >
                     I'm a computer science major at Dartmouth College
                 </Text>
+                <Stack spacing={6} direction={['column','column','row','row']} pt={5}>
+                    <Link href='work'>
+                        <Button
+                            rounded={'full'}
+                            px={6}
+                            colorScheme={'pink'}
+                            bg={'pink.200'}
+                            _hover={{ bg: 'pink.300' }}>
+                            My Work
+                        </Button>
+                    </Link>
+                    <Link href='about'>
+                        <Button rounded={'full'} px={6}>
+                            About Me
+                        </Button>
+                    </Link>
+                </Stack>
             </Stack>
         </Flex>
    )
