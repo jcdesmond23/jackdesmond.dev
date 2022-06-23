@@ -16,7 +16,7 @@ export default function Contact() {
                 <Text
                     bgGradient='linear(to-r, gray.300, yellow.400, pink.200)'
                     bgClip='text'
-                    fontSize='8xl'
+                    fontSize={['6xl','6xl','8xl','8xl']}
                     fontWeight='extrabold'
                     textAlign='center'
                 >

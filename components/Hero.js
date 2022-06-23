@@ -27,15 +27,16 @@ export default function Hero() {
                     <Link href='work'>
                         <Button
                             rounded={'full'}
+                            position='static'
                             px={6}
                             colorScheme={'pink'}
-                            bg={'pink.200'}
-                            _hover={{ bg: 'pink.300' }}>
+                            bg={'pink.300'}
+                            _hover={{ bg: 'pink.200' }}>
                             My Work
                         </Button>
                     </Link>
                     <Link href='about'>
-                        <Button rounded={'full'} px={6}>
+                        <Button rounded={'full'} px={6} bg={'gray.200'} _hover={{ bg: 'gray.100' }} position='static'>
                             About Me
                         </Button>
                     </Link>
