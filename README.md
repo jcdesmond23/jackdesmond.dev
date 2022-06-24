@@ -82,11 +82,11 @@ I built jackdesmond.dev with the Next.js framework and the React and Chakra UI l
    ```sh
    git clone https://github.com/your_username_/Project-Name.git
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
    npm install
    ```
-4. Start the local host`
+3. Start the local host`
    ```sh
    npm run dev
    ```
