@@ -80,7 +80,7 @@ I built jackdesmond.dev with the Next.js framework and the React and Chakra UI l
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/jcdesmond23/jackdesmond.dev.git
    ```
 2. Install NPM packages
    ```sh
