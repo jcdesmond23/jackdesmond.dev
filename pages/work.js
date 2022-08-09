@@ -23,9 +23,9 @@ export default function About() {
                     My Work.
                 </Text>
                 <SimpleGrid columns={[1,1,2,2]} spacing={10}>
-                    <Project title='Greenlight' description='iOS app designed to make Dartmouth greek life a safer space. Uses live OCR to scanner student IDs and compares to blacklists keep unsafe community members away. 2nd place winner in empowerment category of the 2022 Dartmouth Hackathon' image='/greenlight.png' source='https://github.com/dartmouth-greenlight/GreenLight' tech={['Swift','SwiftUI']}></Project>
-                    <Project title='Stream Santa' description='Web app that takes prompts a user to input the ideal movie they would like to watch based on serveral descriptors and predicts the streaming service that they are most likly to find that movie on.' image='/streamsanta.gif' source='https://github.com/jcdesmond23/StreamSanta' tech={['JS','React','Chakra UI','IBM Watson']}></Project>
-                    <Project title='Yodafy' description='iMessage app that allows the user to translate or rearrange their text to sound like the jedi master Yoda.' image='/yodafy.png' source='https://github.com/jcdesmond23/Yodafy' tech={['Swift']}></Project>
+                    <Project title='Greenlight' description='iOS app designed to make Dartmouth greek life a safer space. Uses live OCR to scan student IDs and compares to blacklists keeping unsafe community members out. Won second place in the Empowerment category of the 2022 Dartmouth Hackathon' image='/greenlight.png' source='https://github.com/dartmouth-greenlight/GreenLight' tech={['Swift','SwiftUI']}></Project>
+                    <Project title='Stream Santa' description='Web app that prompts users to describe the ideal movie they would like to watch and predicts the streaming service that they are most likly to find that movie on.' image='/streamsanta.gif' source='https://github.com/jcdesmond23/StreamSanta' tech={['JS','React','Chakra UI','IBM Watson']}></Project>
+                    <Project title='Yodafy' description='iMessage app allowing the user to rearrange their message to sound like Jedi Master Yoda.' image='/yodafy.png' source='https://github.com/jcdesmond23/Yodafy' tech={['Swift']}></Project>
                     <Project title='Portfolio' description='The beautiful website you are looking at right now.' image='/portfolio.png' source='https://github.com/jcdesmond23/jackdesmond.me' tech={['React','NextJS','Chakra UI','JS']}></Project>
                 </SimpleGrid>
             </Stack>
