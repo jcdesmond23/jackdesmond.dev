@@ -40,14 +40,9 @@ export default function About() {
                                     fontWeight='base'
                                     textAlign='left'
                                 >
-                                    I'm an aspiring software engineer with intern experience at Amazon Robotics and Peoplelogic.
-                                    I was raised in Wellesley, Massachusetts and attended The Rivers School for high school.
-                                    I have a sister who is a Dartmouth '25 as well as a younger brother. Growing up, I was a huge Boston sports fan.
-                                    I took every chance I could get to rock my Red Sox hats and Celtics jersey. My early years also injected a passion for travel in me.
-                                    Today, airports are my favorite places to be and unlike most of the population, I can't wait until the next time I travel by air.
-                                    Now, I'm set to graduate from Dartmouth in 2024. Outside the classroom, I am a member of the Dartmouth Sports Analytics Club and the Dartmouth Rugby Football Club. 
-                                    Programming languages that I'm experienced in and comfortable with include Java, Python, C, R, Javascript, TypeScript. For web development, I have experience with the ReactJS library and Next.js framework.
-                                    I also have experience with Swift for iOS development. I am eager to learn new technologies and work to master the ones I already know.
+                                    I'm a software engineer at Cirkul and a graduate of Dartmouth College with intern experience at Amazon Robotics and Peoplelogic.
+                                    Programming languages that I'm experienced in and comfortable with include Java, Python, C, Javascript, and TypeScript. For web development, I prefer working with the React and Tailwind CSS.
+                                    I also have experience with Swift for iOS development. I am constantly working on new projects to learn emerging technologies and master the ones I already know.
                                 </Text>
                             </Flex>
                             <Image
