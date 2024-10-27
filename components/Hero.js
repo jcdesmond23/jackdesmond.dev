@@ -21,7 +21,7 @@ export default function Hero() {
                     fontSize={['2xl','2xl','3xl','3xl']}
                     textAlign='center'
                 >
-                    I'm a software engineer at Cirkul and aDartmouth College graduate
+                    I'm a software engineer at Cirkul and a Dartmouth College graduate
                 </Text>
                 <Stack spacing={6} direction={['column','column','row','row']} pt={5}>
                     <Link href='work'>
