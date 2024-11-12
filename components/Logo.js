@@ -1,13 +1,12 @@
 import Link from "next/link"
 import React from 'react'
-import { Box, Image} from '@chakra-ui/react'
 
 export default function Logo(props) {
   return (
-    <Box {...props}>
+    <div {...props}>
       <Link href='/'>
-        <Image src='/logo.png' w='60px' h='60px'></Image>
+        <img src='/logo.png' alt='Logo' className='w-8 h-8'></img>
       </Link>
-    </Box>
+    </div>
   )
 }

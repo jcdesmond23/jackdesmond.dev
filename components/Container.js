@@ -1,19 +1,12 @@
 import NavBar from "./NavBar";
-import { Flex } from "@chakra-ui/react";
 
 export default function Container({ children, ...props }) {
     return (
         <>
             <NavBar/>
-            <Flex
-            pt={55}
-            px={15}
-            justifyContent='center'
-            direction='column'
-            as='main'
-            {...props}>
+            <div className="pt-14 px-4 flex justify-center flex-col" {...props}>
                 {children}
-            </Flex>
+            </div>
         </>
     )
 }

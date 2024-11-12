@@ -1,50 +1,43 @@
 import Link from "next/link"
-import { Text, Stack, Box, IconButton, Tag, TagLabel, Image, Flex, Center} from "@chakra-ui/react"
 import { FaGithub } from "react-icons/fa"
 
 export default function Project({ description, image, source, title, tech}) {
    
     return (
-        <Box
-            bg='white'
-            shadow='lg'
-            rounded='lg'
-            maxWidth='350px'
+        <div
+            className='bg-white shadow-lg rounded-lg max-w-350px'
         >
-            <Box
-            py={8}
-            px={4}
+            <div
+            className='py-8 px-4'
             >
-                <Stack spacing={3} direction='column' align='center'>
-                    <Flex
-                        borderRadius='md'
-                        alignSelf='center'
-                    >
-                        <Image
+                <div className='flex flex-col items-center'>
+                    <div className='border-radius-md align-self-center'>
+                        <img
                             alt={title}
                             src={image}
-                            maxHeight={150}
-                            borderRadius={10}
+                            className='max-h-150 border-radius-10'
                         />
-                    </Flex>
-                    <Stack direction='row' spacing={1}>
-                        <Text fontSize='2xl' fontWeight='extrabold'>{title}</Text>
+                    </div>
+                    <div className='flex flex-row'>
+                        <h1 className='text-2xl font-extrabold'>{title}</h1>
                         <Link href={source}>
-                            <IconButton icon={<FaGithub size='1.25em'/>} bg='white' variant='link' position='unset'></IconButton>
+                            <button className='bg-white text-gray-500'>
+                                <FaGithub size='1.25em'/>
+                            </button>
                         </Link>
-                    </Stack>
-                    <Stack direction='row'>
+                    </div>
+                    <div className='flex flex-row'>
                         {tech.map((obj) => (
-                            <Tag variant='subtle' colorScheme='gray' borderRadius='full'>
-                                <TagLabel>{obj}</TagLabel>
-                            </Tag>
+                            <span className='bg-gray-100 text-gray-800 rounded-full'>
+                                {obj}
+                            </span>
                         ))}
-                    </Stack>
-                    <Text>
+                    </div>
+                    <p>
                         {description}
-                    </Text>
-                </Stack>
-            </Box>
-        </Box>
+                    </p>
+                </div>
+            </div>
+        </div>
    )
 }
