@@ -5,7 +5,7 @@ export default function Logo(props) {
   return (
     <div {...props}>
       <Link href='/'>
-        <img src='/logo.png' alt='Logo' className='w-8 h-8'></img>
+        <img src='/logo.png' alt='Logo' className='w-16 h-16'></img>
       </Link>
     </div>
   )

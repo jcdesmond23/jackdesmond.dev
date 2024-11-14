@@ -4,7 +4,7 @@ export default function Hero() {
     return (
         <div className="flex justify-center py-52 px-10">
             <div className="flex flex-col items-center space-y-2">
-                <h1 className="bg-gradient-to-r from-gray-300 via-yellow-400 to-pink-200 bg-clip-text text-transparent text-5xl md:text-6xl font-extrabold text-center">
+                <h1 className="bg-[#369694] bg-clip-text text-transparent text-5xl md:text-6xl font-extrabold text-center">
                     Hi, I'm Jack.
                 </h1>
                 <p className="bg-black bg-clip-text text-transparent text-2xl md:text-3xl text-center">
@@ -12,12 +12,12 @@ export default function Hero() {
                 </p>
                 <div className="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6 pt-5">
                     <Link href='work'>
-                        <button className="rounded-full px-6 bg-pink-300 hover:bg-pink-200">
+                        <button className="text-white rounded-full px-6 py-1 bg-[#369694] hover:bg-[#2a7472]">
                             My Work
                         </button>
                     </Link>
                     <Link href='about'>
-                        <button className="rounded-full px-6 bg-gray-200 hover:bg-gray-100">
+                        <button className="rounded-full px-6 py-1 border border-grey hover:bg-gray-100">
                             About Me
                         </button>
                     </Link>

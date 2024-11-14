@@ -1,18 +1,10 @@
 import Link from "next/link"
 import MenuItem from "./MenuItem"
 import { FaLinkedin, FaGithub } from "react-icons/fa"
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 
 export default function MenuLinks({isOpen}) {
    const [isDarkMode, setIsDarkMode] = useState(false);
-
-   useEffect(() => {
-     if (isDarkMode) {
-       document.documentElement.classList.add('dark')
-     } else {
-       document.documentElement.classList.remove('dark')
-     }
-   }, [isDarkMode])
 
    const toggleDarkMode = () => {
      setIsDarkMode(!isDarkMode)
@@ -21,17 +13,17 @@ export default function MenuLinks({isOpen}) {
    return (
         <div className={`flex ${isOpen ? "block" : "hidden"} md:block flex-basis-auto`}>
             <div className="flex flex-col md:flex-row items-center justify-center md:justify-end space-y-8 md:space-y-0 md:space-x-8 pt-4 md:pt-0"> 
-                <MenuItem to="/work" className="text-black bg-white dark:text-white dark:bg-gray-800">Work</MenuItem>
-                <MenuItem to="/about" className="text-black bg-white dark:text-white dark:bg-gray-800">About</MenuItem>
-                <MenuItem to="/contact" className="text-black bg-white dark:text-white dark:bg-gray-800">Contact</MenuItem>
+                <MenuItem to="/work" className={`${isDarkMode ? "text-white": "text-black"}`}>Work</MenuItem>
+                <MenuItem to="/about" className={`${isDarkMode ? "text-white": "text-black"}`}>About</MenuItem>
+                <MenuItem to="/contact" className={`${isDarkMode ? "text-white": "text-black"}`}>Contact</MenuItem>
                 <Link href='https://github.com/jcdesmond23'>
-                    <button className="bg-white dark:bg-gray-800 rounded-full p-2">
-                        <FaGithub size='1.5em' className="text-black dark:text-white"/>
+                    <button className={`${isDarkMode ? "bg-gray-800": "bg-white"} rounded-full p-2`}>
+                        <FaGithub size='1.5em' className={`${isDarkMode ? "text-white": "text-black"}`}/>
                     </button>
                 </Link>
                 <Link href='https://www.linkedin.com/in/jack-desmond-052301/'>
-                    <button className="bg-white dark:bg-gray-800 rounded-full p-2">
-                        <FaLinkedin size='1.5em' className="text-black dark:text-white"/>
+                    <button className={`${isDarkMode ? "bg-gray-800": "bg-white"} rounded-full p-2`}>
+                        <FaLinkedin size='1.5em' className={`${isDarkMode ? "text-white": "text-black"}`}/>
                     </button>
                 </Link>
                 <button

@@ -11,7 +11,7 @@ export default function NavBar(props) {
 
     return (
         <NavBarContainer {...props}>
-            <Logo className="w-25"/>
+            <Logo/>
             <MenuToggle toggle={toggle} isOpen={isOpen} />
             <MenuLinks isOpen={isOpen} />
         </NavBarContainer>

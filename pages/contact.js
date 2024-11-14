@@ -12,11 +12,11 @@ export default function Contact() {
       </Head>
       <div className="flex justify-center py-52 px-10">
         <div className="flex flex-col items-center space-y-2">
-          <h1 className="bg-gradient-to-r from-gray-300 via-yellow-400 to-pink-200 bg-clip-text text-transparent text-5xl md:text-6xl lg:text-8xl font-extrabold text-center">
+          <h1 className="bg-[#369694] bg-clip-text text-transparent text-5xl md:text-6xl lg:text-8xl font-extrabold text-center">
             Contact Me.
           </h1>
           <div className="flex space-x-4">
-            <div className="flex items-center space-x-2 bg-red-100 text-red-800 px-3 py-1 rounded-full">
+            <div className="flex items-center space-x-2 border border-[#369694] text-black px-3 py-1 rounded-full">
               <FaEnvelope className="w-3 h-3" />
               <span>jackson.c.desmond.24@dartmouth.edu</span>
             </div>
