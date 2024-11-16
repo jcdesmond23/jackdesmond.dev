@@ -12,7 +12,7 @@ export default function About() {
       </Head>
       <div className="flex justify-center py-14 px-10">
         <div className="flex flex-col items-center space-y-8">
-          <h1 className="bg-[#369694] bg-clip-text text-transparent text-6xl font-extrabold text-center">
+          <h1 className="bg-[#369694] bg-clip-text text-transparent text-4xl font-extrabold text-center">
             My Work.
           </h1>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">

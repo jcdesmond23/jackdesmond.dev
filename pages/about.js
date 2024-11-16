@@ -11,14 +11,14 @@ export default function About() {
       </Head>
       <div className="flex justify-center py-14 px-4">
         <div className="space-y-8 text-center">
-          <h1 className="bg-[#369694] bg-clip-text text-transparent text-6xl font-extrabold">
+          <h1 className="bg-[#369694] bg-clip-text text-transparent text-4xl font-extrabold">
             About Me.
           </h1>
-          <div className="bg-white border border-grey mx-8 flex rounded-lg">
+          <div className="dark:bg-black bg-white border border-grey dark:border-gray-800 mx-8 flex rounded-lg">
             <div className="py-12 px-6">
               <div className="space-x-10 flex flex-col md:flex-row items-center">
                 <div className="max-w-md">
-                  <p className="text-black font-normal text-left">
+                  <p className="dark:text-white text-black font-normal text-left">
                     I'm a software engineer at Cirkul and a graduate of Dartmouth College with intern experience at Amazon Robotics and Peoplelogic.
                     Programming languages that I'm experienced in and comfortable with include Java, Python, C, Javascript, and TypeScript. For web development, I prefer working with the React and Tailwind CSS.
                     I also have experience with Swift for iOS development. I am constantly working on new projects to learn emerging technologies and master the ones I already know.

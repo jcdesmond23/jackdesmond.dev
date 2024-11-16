@@ -16,7 +16,7 @@ export default function Contact() {
             Contact Me.
           </h1>
           <div className="flex space-x-4">
-            <div className="flex items-center space-x-2 border border-[#369694] text-black px-3 py-1 rounded-full">
+            <div className="flex items-center space-x-2 border border-[#369694] dark:text-white text-black px-3 py-1 rounded-full">
               <FaEnvelope className="w-3 h-3" />
               <span>jackson.c.desmond.24@dartmouth.edu</span>
             </div>
