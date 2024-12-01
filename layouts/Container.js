@@ -1,10 +1,10 @@
-import NavBar from "./NavBar";
+import NavBar from "../components/NavBar";
 
 export default function Container({ children, ...props }) {
     return (
         <>
             <NavBar/>
-            <div className="pt-14 px-4 min-h-screen flex justify-center flex-col dark:bg-black" {...props}>
+            <div className="pt-12 flex justify-center min-h-screen items-center dark:bg-black" {...props}>
                 {children}
             </div>
         </>

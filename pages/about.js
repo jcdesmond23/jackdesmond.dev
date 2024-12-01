@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Container from '../components/Container'
+import Container from '../layouts/Container'
 
 export default function About() {
   return (
@@ -9,7 +9,7 @@ export default function About() {
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
         <title>About</title>
       </Head>
-      <div className="flex justify-center py-14 px-4">
+      <div className="flex justify-center my-36">
         <div className="space-y-8 text-center">
           <h1 className="bg-[#369694] bg-clip-text text-transparent text-4xl font-extrabold">
             About Me.

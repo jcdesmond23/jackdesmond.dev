@@ -1,8 +1,8 @@
-import Container from '../components/Container'
+import Container from '../layouts/Container'
 import Head from 'next/head'
 import Project from '../components/project'
 
-export default function About() {
+export default function Work() {
   return (
     <Container>
       <Head>
@@ -10,7 +10,7 @@ export default function About() {
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
         <title>Work</title>
       </Head>
-      <div className="flex justify-center py-14 px-10">
+      <div className="flex justify-center my-36">
         <div className="flex flex-col items-center space-y-8">
           <h1 className="bg-[#369694] bg-clip-text text-transparent text-4xl font-extrabold text-center">
             My Work.

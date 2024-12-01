@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export default function Hero() {
     return (
-        <div className="flex justify-center py-52 px-10">
+        <div className="flex justify-center">
             <div className="flex flex-col items-center space-y-2">
                 <h1 className="bg-[#369694] bg-clip-text text-transparent text-3xl md:text-6xl font-extrabold text-center">
                     Hi, I'm Jack.

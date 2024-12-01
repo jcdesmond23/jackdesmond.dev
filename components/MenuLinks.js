@@ -1,7 +1,6 @@
 import Link from "next/link"
 import MenuItem from "./MenuItem"
 import { FaLinkedin, FaGithub } from "react-icons/fa"
-import { useState } from 'react'
 
 export default function MenuLinks({isOpen}) {
     const toggleTheme = () => {
@@ -10,7 +9,7 @@ export default function MenuLinks({isOpen}) {
 
    return (
         <div className={`flex ${isOpen ? "block" : "hidden"} md:block flex-basis-auto`}>
-            <div className="flex flex-col md:flex-row items-center justify-center md:justify-end space-y-8 md:space-y-0 md:space-x-8 pt-4 md:pt-0"> 
+            <div className="flex flex-col md:flex-row items-center justify-center md:justify-end space-y-8 md:space-y-0 md:space-x-8 py-4 md:py-0"> 
                 <MenuItem to="/work" className="dark:text-gray-500 dark:hover:text-white text-black">Work</MenuItem>
                 <MenuItem to="/about" className="dark:text-gray-500 dark:hover:text-white text-black">About</MenuItem>
                 <MenuItem to="/contact" className="dark:text-gray-500 dark:hover:text-white text-black">Contact</MenuItem>
