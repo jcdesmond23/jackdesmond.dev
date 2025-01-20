@@ -3,7 +3,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="public/logo-white.png" alt="Logo" width="80" height="80">
+    <img src="public/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">jackdesmond.dev</h3>
@@ -36,8 +36,6 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -47,9 +45,6 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-<img src="public/Screenshot.png" alt="screenshot">
-
 jackdesmond.dev is my software development portfolio
 
 It includes:
@@ -67,7 +62,7 @@ I built jackdesmond.dev with the Next.js framework and the React and Chakra UI l
 
 * [Next.js](https://nextjs.org/)
 * [React.js](https://reactjs.org/)
-* [Chakra UI](https://chakra-ui.com)
+* [Tailwind CSS](https://tailwindcss.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -94,30 +89,10 @@ I built jackdesmond.dev with the Next.js framework and the React and Chakra UI l
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Add work section to home page
-- [ ] Add three.js 3D animations
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
 <!-- CONTACT -->
 ## Contact
 
-Email: jackson.c.desmond.24@dartmouth.edu
+Email: jcdesmond23@gmail.com
 
 Project Link: [https://jackdesmond.dev](https://jackdesmond.dev)
 
@@ -128,7 +103,7 @@ Project Link: [https://jackdesmond.dev](https://jackdesmond.dev)
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [Chakra UI](https://chakra-ui.com)
+* [Tailwind](https://tailwindcss.com/)
 * [Next.js](https://nextjs.org/)
 * [React Icons](https://react-icons.github.io/react-icons/search)
 

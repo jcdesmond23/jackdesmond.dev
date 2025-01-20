@@ -18,7 +18,7 @@ export default function Contact() {
           <div className="flex space-x-4">
             <div className="flex items-center space-x-2 border border-[#369694] dark:text-white text-black px-3 py-1 rounded-full">
               <FaEnvelope className="w-3 h-3" />
-              <span>jackson.c.desmond.24@dartmouth.edu</span>
+              <span>jcdesmond23@gmail.com</span>
             </div>
           </div>
         </div>

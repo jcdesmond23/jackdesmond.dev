@@ -12,12 +12,12 @@ export default function Hero() {
                 </p>
                 <div className="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6 pt-5">
                     <Link href='work'>
-                        <button className="text-white rounded-full px-6 py-1 bg-[#369694] hover:bg-[#2a7472]">
+                        <button className="text-white rounded-full px-6 py-1 bg-[#369694] hover:bg-[#2a7472] transition-colors duration-300">
                             My Work
                         </button>
                     </Link>
                     <Link href='about'>
-                        <button className="rounded-full px-6 py-1 border border-grey dark:bg-bg-gray-100 dark:text-white dark:hover:bg-white dark:hover:text-black hover:bg-gray-100">
+                        <button className="rounded-full px-6 py-1 border border-gray-200 dark:border-gray-700 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800/50 transition-colors duration-300">
                             About Me
                         </button>
                     </Link>
