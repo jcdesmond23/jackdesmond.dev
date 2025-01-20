@@ -1,5 +1,3 @@
-import Link from 'next/link'
-
 export default function Footer() {
     return (
         <footer className="w-full py-8 mt-24">
