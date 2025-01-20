@@ -1,31 +1,37 @@
 import Link from "next/link"
-import { Box, Stack, IconButton } from "@chakra-ui/react"
 import MenuItem from "./MenuItem"
 import { FaLinkedin, FaGithub } from "react-icons/fa"
 
 export default function MenuLinks({isOpen}) {
+    const toggleTheme = () => {
+        document.documentElement.classList.toggle('dark')
+      }
+
    return (
-        <Box
-        display={{ base: isOpen ? "block" : "none", md: "block" }}
-        flexBasis={{ base: "100%", md: "auto" }}
-        >
-            <Stack
-            spacing={8}
-            align="center"
-            justify={["center", "center", "flex-end", "flex-end"]}
-            direction={["column", "row", "row", "row"]}
-            pt={[4, 4, 0, 0]}
-            > 
-                <MenuItem to="/work" color='black' bg='white'>Work</MenuItem>
-                <MenuItem to="/about" color='black' bg='white'>About</MenuItem>
-                <MenuItem to="/contact" color='black' bg='white'>Contact</MenuItem>
+        <div className={`flex ${isOpen ? "block" : "hidden"} md:block flex-basis-auto`}>
+            <div className="flex flex-col md:flex-row items-center justify-center md:justify-end space-y-8 md:space-y-0 md:space-x-8 py-4 md:py-0"> 
+                <MenuItem to="/work" className="dark:text-gray-500 dark:hover:text-white text-black">Work</MenuItem>
+                <MenuItem to="/about" className="dark:text-gray-500 dark:hover:text-white text-black">About</MenuItem>
+                <MenuItem to="/contact" className="dark:text-gray-500 dark:hover:text-white text-black">Contact</MenuItem>
                 <Link href='https://github.com/jcdesmond23'>
-                    <IconButton icon={<FaGithub size='1.5em'/>} bg='white' size='lg' rounded='full'/>
+                    <button className="p-2 rounded-full dark:hover:bg-gray-800">
+                        <FaGithub size='1.5em' className="dark:text-white text-black"/>
+                    </button>
                 </Link>
                 <Link href='https://www.linkedin.com/in/jack-desmond-052301/'>
-                    <IconButton icon={<FaLinkedin size='1.5em'/>} bg='white' size='lg' rounded='full'/>
+                    <button className="p-2 rounded-full dark:hover:bg-gray-800">
+                        <FaLinkedin size='1.5em' className="dark:text-white text-black"/>
+                    </button>
                 </Link>
-            </Stack>
-        </Box>
+                <button
+                    onClick={toggleTheme}
+                    className="w-10 h-5 bg-gray-300 rounded-full flex items-center transition duration-300 focus:outline-none shadow"
+                >
+                    <div
+                        className="w-6 h-6 rounded-full shadow-md transform transition-transform duration-300 dark:translate-x-5 dark:bg-[#369694] translate-x-0 bg-white"
+                    ></div>
+                </button>
+            </div>
+        </div>
    )
 }

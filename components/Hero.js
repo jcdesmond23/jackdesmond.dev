@@ -1,47 +1,28 @@
 import Link from "next/link"
-import { Text, Stack, Flex, Button} from "@chakra-ui/react"
 
 export default function Hero() {
-   
     return (
-        <Flex justifyContent='center' py={200} px={10}>
-            <Stack direction='column' spacing={2} align='center'> 
-                <Text
-                    bgGradient='linear(to-r, gray.300, yellow.400, pink.200)'
-                    bgClip='text'
-                    fontSize={['5xl','5xl','6xl','6xl']}
-                    fontWeight='extrabold'
-                    textAlign='center'
-                >
+        <div className="flex justify-center">
+            <div className="flex flex-col items-center space-y-2">
+                <h1 className="bg-[#369694] bg-clip-text text-transparent text-3xl md:text-6xl font-extrabold text-center">
                     Hi, I'm Jack.
-                </Text>
-                <Text
-                    bg='black'
-                    bgClip='text'
-                    fontSize={['2xl','2xl','3xl','3xl']}
-                    textAlign='center'
-                >
+                </h1>
+                <p className="bg-black dark:bg-white bg-clip-text text-transparent text-xl md:text-3xl text-center">
                     I'm a software engineer at Cirkul and a Dartmouth College graduate
-                </Text>
-                <Stack spacing={6} direction={['column','column','row','row']} pt={5}>
+                </p>
+                <div className="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6 pt-5">
                     <Link href='work'>
-                        <Button
-                            rounded={'full'}
-                            position='static'
-                            px={6}
-                            colorScheme={'pink'}
-                            bg={'pink.300'}
-                            _hover={{ bg: 'pink.200' }}>
+                        <button className="text-white rounded-full px-6 py-1 bg-[#369694] hover:bg-[#2a7472] transition-colors duration-300">
                             My Work
-                        </Button>
+                        </button>
                     </Link>
                     <Link href='about'>
-                        <Button rounded={'full'} px={6} bg={'gray.200'} _hover={{ bg: 'gray.100' }} position='static'>
+                        <button className="rounded-full px-6 py-1 border border-gray-200 dark:border-gray-700 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800/50 transition-colors duration-300">
                             About Me
-                        </Button>
+                        </button>
                     </Link>
-                </Stack>
-            </Stack>
-        </Flex>
-   )
+                </div>
+            </div>
+        </div>
+    )
 }

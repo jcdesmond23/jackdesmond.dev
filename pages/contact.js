@@ -1,7 +1,6 @@
-import Container from '../components/Container'
+import Container from '../layouts/Container'
 import Head from 'next/head'
-import { Text, VStack, HStack, Flex, Tag, TagLabel, TagLeftIcon} from "@chakra-ui/react"
-import { EmailIcon } from '@chakra-ui/icons'
+import { FaEnvelope } from 'react-icons/fa'
 
 export default function Contact() {
   return (
@@ -11,25 +10,19 @@ export default function Contact() {
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
         <title>Contact</title>
       </Head>
-      <Flex justifyContent='center' py={200} px={10}>
-            <VStack spacing={2} align='center'> 
-                <Text
-                    bgGradient='linear(to-r, gray.300, yellow.400, pink.200)'
-                    bgClip='text'
-                    fontSize={['6xl','6xl','8xl','8xl']}
-                    fontWeight='extrabold'
-                    textAlign='center'
-                >
-                    Contact Me.
-                </Text>
-                <HStack spacing={4}>
-                    <Tag size='lg' variant='subtle' colorScheme='red' borderRadius='full'>
-                        <TagLeftIcon boxSize='12px' as={EmailIcon} />
-                        <TagLabel>jackson.c.desmond.24@dartmouth.edu</TagLabel>
-                    </Tag>
-                </HStack>
-            </VStack>
-        </Flex>
+      <div className="flex justify-center my-60">
+        <div className="flex flex-col items-center space-y-2">
+          <h1 className="bg-[#369694] bg-clip-text text-transparent text-5xl md:text-6xl lg:text-8xl font-extrabold text-center">
+            Contact Me.
+          </h1>
+          <div className="flex space-x-4">
+            <div className="flex items-center space-x-2 border border-[#369694] dark:text-white text-black px-3 py-1 rounded-full">
+              <FaEnvelope className="w-3 h-3" />
+              <span>jcdesmond23@gmail.com</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </Container>
   )
 }
