@@ -21,18 +21,27 @@ export default function Work() {
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-y-6 gap-x-5 w-fit">
+            <Project
+              title='Pup Portal'
+              description='Dog food dispenser with a web interface to control it and view live video feed.'
+              source='https://github.com/jcdesmond23/pup-portal'
+              tech={['React','TypeScript','FastAPI','Python','Tailwind CSS','Vite','Cloudflare','Linux']} 
+              image='/pup-portal.gif'
+            >
+
+            </Project>
             <Project 
               title='HackDartmouthIX' 
-              description='Led the development of the HackDartmouth IX website, featuring real-time registration tracking, dynamic schedule updates, and seamless sponsor integration.'  
+              description='HackDartmouth IX website.'  
               source='https://github.com/jcdesmond23/hackdartmouthix'
-              tech={['Next.js', 'TypeScript', 'Tailwind']} 
+              tech={['React','Next.js', 'TypeScript', 'Tailwind CSS']} 
               image='/HackDartmouthIX.png'
             />
-            <Project title='HackDartmouthVIII' description='Built a fully responsive website for the 2023 Dartmouth hackathon.' source='https://github.com/jcdesmond23/hackdartmouthviii' tech={['React', 'TypeScript', 'Tailwind']} image='/HackDartmouthVIII.png'/>
-            <Project title='Greenlight' description='iOS app designed to make Dartmouth greek life a safer space. Uses live OCR to scan student IDs and compares to blacklists keeping unsafe community members out. Won second place in the Empowerment category of the 2022 Dartmouth Hackathon' image='/greenlight.png' source='https://github.com/dartmouth-greenlight/GreenLight' tech={['Swift','SwiftUI']}></Project>
-            <Project title='Stream Santa' description='Web app that prompts users to describe the ideal movie they would like to watch and predicts the streaming service that they are most likely to find that movie on.' image='/streamsanta.gif' source='https://github.com/jcdesmond23/StreamSanta' tech={['JS','React','Chakra UI','IBM Watson']}></Project>
+            <Project title='HackDartmouthVIII' description='The 2023 Dartmouth hackathon website.' source='https://github.com/jcdesmond23/hackdartmouthviii' tech={['React', 'TypeScript', 'Tailwind']} image='/HackDartmouthVIII.png'/>
+            <Project title='GreenLight' description='iOS app designed to make Dartmouth greek life a safer space. Uses live OCR to scan student IDs and compares to blacklists keeping unsafe community members out. Won second place in the Empowerment category of the 2022 Dartmouth Hackathon.' image='/greenlight.png' source='https://github.com/dartmouth-greenlight/GreenLight' tech={['Swift','SwiftUI', 'Firebase']}></Project>
+            <Project title='Stream Santa' description='Web app that prompts users to describe the ideal movie they would like to watch and predicts the streaming service that they are most likely to find that movie on.' image='/streamsanta.gif' source='https://github.com/jcdesmond23/StreamSanta' tech={['JavaScript','React','Chakra UI','IBM Watson']}></Project>
             <Project title='Yodafy' description='iMessage app allowing the user to rearrange their message to sound like Jedi Master Yoda.' image='/yodafy.png' source='https://github.com/jcdesmond23/Yodafy' tech={['Swift']}></Project>
-            <Project title='Portfolio' description='The beautiful website you are looking at right now.' image='/portfolio.png' source='https://github.com/jcdesmond23/jackdesmond.me' tech={['React','NextJS','Chakra UI','JS']}></Project>
+            <Project title='Portfolio' description='The beautiful website you are looking at right now.' image='/portfolio.png' source='https://github.com/jcdesmond23/jackdesmond.me' tech={['React','NextJS','JavaScript','Tailwind CSS']}></Project>
           </div>
         </div>
       </div>
