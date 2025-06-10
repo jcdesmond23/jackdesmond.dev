@@ -40,7 +40,6 @@ export default function Work() {
             <Project title='HackDartmouthVIII' description='The 2023 Dartmouth hackathon website.' source='https://github.com/jcdesmond23/hackdartmouthviii' tech={['React', 'TypeScript', 'Tailwind']} image='/HackDartmouthVIII.png'/>
             <Project title='GreenLight' description='iOS app designed to make Dartmouth greek life a safer space. Uses live OCR to scan student IDs and compares to blacklists keeping unsafe community members out. Won second place in the Empowerment category of the 2022 Dartmouth Hackathon.' image='/greenlight.png' source='https://github.com/dartmouth-greenlight/GreenLight' tech={['Swift','SwiftUI', 'Firebase']}></Project>
             <Project title='Stream Santa' description='Web app that prompts users to describe the ideal movie they would like to watch and predicts the streaming service that they are most likely to find that movie on.' image='/streamsanta.gif' source='https://github.com/jcdesmond23/StreamSanta' tech={['JavaScript','React','Chakra UI','IBM Watson']}></Project>
-            <Project title='Yodafy' description='iMessage app allowing the user to rearrange their message to sound like Jedi Master Yoda.' image='/yodafy.png' source='https://github.com/jcdesmond23/Yodafy' tech={['Swift']}></Project>
             <Project title='Portfolio' description='The beautiful website you are looking at right now.' image='/portfolio.png' source='https://github.com/jcdesmond23/jackdesmond.me' tech={['React','NextJS','JavaScript','Tailwind CSS']}></Project>
           </div>
         </div>
