@@ -10,7 +10,7 @@ export default function Work() {
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
         <title>Work</title>
       </Head>
-      <div className="flex justify-center pt-24 pb-24 w-full">
+      <div className="flex justify-center pt-32 pb-24 w-full">
         <div className="flex flex-col items-center max-w-6xl w-full px-4">
           <div className="text-center mb-12 space-y-3">
             <h1 className="bg-gradient-to-r from-[#369694] to-[#44b7b5] bg-clip-text text-transparent text-5xl font-extrabold">
